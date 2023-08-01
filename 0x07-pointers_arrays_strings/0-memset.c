@@ -2,12 +2,13 @@
 #include <string.h>
 
 /**
- * _memset - Entry point
- * @s: pointed destination
- * @b: constant byte
- * @n: bytes
- * Return: Always 0 
+ *_memset - Entry point
+ *@s: pointed destination
+ *@b: constant byte
+ *@n: bytes
+ *Return: Always 0. 
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
